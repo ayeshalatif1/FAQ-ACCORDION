@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 8px 20px #ccbfcd, 0 8px 20px #ccbfcd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(275, 100%, 97%);
+}
+.top{
+    width:100%;
+    height: 256px;
+    background-image: url('./images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    gap: 4%;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.answer p{
+    font-size: 16px;
+}
+.minus{
+    display: none;
+}
+.faqs{
+    width: 50%;
+    padding: 2em;
+    border: 20px solid white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 1px #ccbfcd, 0 5px 1px hsl(275, 100%, 97%);
+    gap: 2em;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: -10%;
+    margin-bottom: 5%;
+}
+.qs-pair{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.heading h1{
+    font-family: Work Sans;
+    font-size: 3rem;
+    color:  hsl(292, 42%, 14%);
+}
+h4{
+    color:  hsl(292, 42%, 14%);
+    font-family: WorkSans;
+}
+p{
+    color: hsl(292, 16%, 49%);
+    font-family: worksans;
+}
+.qs-pair p{
+    text-align: left;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.answer{
+    display: none;
+}
+
+@media (min-width:320px) and (max-width:768px)
+{
+    body{
+        width: 98%;
+        overflow-x: hidden;
+    }
+    .container{
+        width: 100%;
+        margin-right: 0%;
+        box-shadow: 0 8px 20px #ccbfcd, 0 8px 20px #ccbfcd;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(275, 100%, 97%);
+    }
+    .faqs{
+        width: 80%;
+        padding: 0.5em;
+        border: 20px solid white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0px 0px #ccbfcd, 0 0px 0px hsl(275, 100%, 97%);
+        gap: 1em;
+        background-color: hsl(0, 0%, 100%);
+        margin-top: -15%;
+        margin-bottom: 5%;
+    }
+    .answer p{
+        font-size: 14px;
+    }
+    .heading h1{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 12px;
+    }
+}
