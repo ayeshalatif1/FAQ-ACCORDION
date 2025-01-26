@@ -43,7 +43,7 @@ I learned about how DOM content can be manipulated using javascript. How to add 
 
 ### Continued development
 
-The javascript logics can be furthur improved. I implemented the section with the idea that first came to mind when i decided to implement this project and hwich was using display property of css. The code can be furthur improved by avoiding repeated code.
+The javascript logics can be furthur improved.
 
 
 ## Author
