@@ -8,6 +8,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Built with](#built-with)
+  - Live Site URL
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Author](#Author)
@@ -35,6 +36,10 @@ Mobile Preview(./mobile.PNG)
 - Flexbox
 - Desktop-first workflow
 - Javascript
+
+### Live Site URL
+
+https://ayeshalatif1.github.io/FAQ-ACCORDION/
 
 ### What I learned
 
